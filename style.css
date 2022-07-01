@@ -1,0 +1,427 @@
+body {
+  margin: 1% 7%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-inline-grid {
+  display: inline-grid;
+}
+
+.div-left {
+  display: inline-flex;
+  width: 49%;
+}
+.div-right {
+  display: inline-grid;
+  width: 49%;
+}
+
+.personal-photo {
+  width: 85%;
+  margin: 20px 20px;
+  border-radius: 4px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-percent {
+  width: 33%;
+}
+
+.name-font {
+  font-family: "Anton", sans-serif;
+  font-size: 56px;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.name-div {
+  display: flex;
+  align-items: baseline;
+}
+
+.hr-style {
+  border-left: 10px solid #0900c5;
+  width: 10px;
+  height: 49px;
+}
+
+.profession-title {
+  margin-top: 0;
+  font-family: monospace;
+  font-size: 28px;
+  color: rgb(100 100 100);
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 21px;
+}
+
+.border-line {
+  border-bottom: 3px solid #0900c5;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+.data-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subtext-style {
+  font-family: cursive;
+  font-size: 18px;
+  margin: 0;
+}
+
+.columns {
+  columns: 2;
+}
+
+.mr-col {
+  margin-right: 50px;
+}
+
+.header-spacing {
+  margin-top: 15px;
+}
+.header-spacing-left {
+  margin-top: 15px;
+}
+
+.d-flex-v-align {
+  display: flex;
+  align-items: center;
+}
+
+.aboutme-title {
+  font-size: 23px;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.aboutme-text {
+  font-family: monospace;
+  font-size: 16px;
+  margin: 0;
+}
+
+.left-division {
+  border-left: 3px solid #0900c5;
+  padding-left: 15px;
+}
+
+.p-text {
+  padding-right: 50px;
+}
+
+.skill-icon {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.bottom-division {
+  border-bottom: 3px solid #0900c5;
+  padding-bottom: 10px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.skill-text {
+  font-family: system-ui;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 5px 0px 0px;
+}
+
+.skills-margin {
+  margin-bottom: 10px;
+}
+
+.aboutme-division-bottom {
+  margin-right: 15px;
+}
+
+@media (max-width: 400px) {
+  .name-font {
+    font-size: 24px;
+  }
+  .profession-title {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+  .w-percent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .personal-photo {
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 0px;
+  }
+  .d-flex {
+    display: block;
+  }
+  .columns {
+    columns: 1;
+  }
+  .hr-style {
+    border-left: 6px solid #0900c5;
+    height: 21px;
+  }
+  .p-left {
+    padding: 0px 7vw 0px 7vw;
+  }
+  .subtext-style {
+    font-size: 14px;
+  }
+  .icon {
+    width: 23px;
+    height: 23px;
+  }
+  .data-div {
+    margin-bottom: 10px;
+  }
+  .div-left {
+    display: block;
+    width: 100%;
+  }
+  .aboutme-title {
+    font-size: 16px;
+  }
+  .aboutme-icon {
+    width: 36px;
+  }
+  .p-text-aboutme {
+    padding: 0px 10px;
+  }
+  .aboutme-text {
+    font-size: 14px;
+  }
+  .aboutme-division-bottom {
+    margin-right: 0px;
+  }
+  .header-spacing-left {
+    margin-top: 0px;
+  }
+  .mr-col {
+    margin-right: 0;
+  }
+  .div-right {
+    display: block;
+    width: 100%;
+  }
+  .left-division {
+    border-left: none;
+    padding-left: 10px;
+  }
+  .skill-icon {
+    width: 36px;
+  }
+  .skill-text {
+    font-size: 14px;
+  }
+  .star-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .header-spacing {
+    margin-top: 3px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .name-font {
+    font-size: 24px;
+  }
+  .profession-title {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+  .w-percent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .personal-photo {
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 0px;
+  }
+  .d-flex {
+    display: block;
+  }
+  .columns {
+    columns: 1;
+  }
+  .hr-style {
+    border-left: 6px solid #0900c5;
+    height: 21px;
+  }
+  .p-left {
+    padding: 0px 7vw 0px 7vw;
+  }
+  .subtext-style {
+    font-size: 14px;
+  }
+  .icon {
+    width: 23px;
+    height: 23px;
+  }
+  .data-div {
+    margin-bottom: 10px;
+  }
+  .div-left {
+    display: block;
+    width: 100%;
+  }
+  .aboutme-title {
+    font-size: 16px;
+  }
+  .aboutme-icon {
+    width: 36px;
+  }
+  .p-text-aboutme {
+    padding: 0px 10px;
+  }
+  .aboutme-text {
+    font-size: 14px;
+  }
+  .aboutme-division-bottom {
+    margin-right: 0px;
+  }
+  .header-spacing-left {
+    margin-top: 0px;
+  }
+  .mr-col {
+    margin-right: 0;
+  }
+  .div-right {
+    display: block;
+    width: 100%;
+  }
+  .left-division {
+    border-left: none;
+    padding-left: 10px;
+  }
+  .skill-icon {
+    width: 36px;
+  }
+  .skill-text {
+    font-size: 14px;
+  }
+  .star-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .header-spacing {
+    margin-top: 3px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  .name-font {
+    font-size: 36px;
+  }
+  .profession-title {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+  .w-percent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .personal-photo {
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 0px;
+  }
+  .d-flex {
+    display: block;
+  }
+  .columns {
+    columns: 1;
+  }
+  .hr-style {
+    border-left: 6px solid #0900c5;
+    height: 21px;
+  }
+  .p-left {
+    padding: 0px 7vw 0px 7vw;
+  }
+  .subtext-style {
+    font-size: 14px;
+  }
+  .icon {
+    width: 23px;
+    height: 23px;
+  }
+  .data-div {
+    margin-bottom: 10px;
+  }
+  .div-left {
+    display: block;
+    width: 100%;
+  }
+  .aboutme-title {
+    font-size: 16px;
+  }
+  .aboutme-icon {
+    width: 36px;
+  }
+  .p-text-aboutme {
+    padding: 0px 10px;
+  }
+  .aboutme-text {
+    font-size: 14px;
+  }
+  .aboutme-division-bottom {
+    margin-right: 0px;
+  }
+  .header-spacing-left {
+    margin-top: 0px;
+  }
+  .mr-col {
+    margin-right: 0;
+  }
+  .div-right {
+    display: block;
+    width: 100%;
+  }
+  .left-division {
+    border-left: none;
+    padding-left: 10px;
+  }
+  .skill-icon {
+    width: 36px;
+  }
+  .skill-text {
+    font-size: 14px;
+  }
+  .star-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .header-spacing {
+    margin-top: 3px;
+  }
+}
