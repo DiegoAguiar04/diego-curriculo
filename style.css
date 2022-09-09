@@ -2,6 +2,8 @@ body {
   margin: 1% 7%;
 }
 
+/* Width */
+
 .w-50 {
   width: 50%;
 }
@@ -9,28 +11,75 @@ body {
 .w-100 {
   width: 100%;
 }
+/* Margin Right */
+
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+
+/* Padding Left */
+
+.pl-5 {
+  padding-left: 5px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.pl-25 {
+  padding-left: 25px;
+}
+
+/* Display */
 
 .d-inline-grid {
   display: inline-grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-v-align {
+  display: flex;
+  align-items: center;
+}
+
+/* Columns */
+
+.columns-1 {
+  columns: 1;
+}
+
+.columns-2 {
+  columns: 2;
+}
+
+.columns-3 {
+  columns: 3;
 }
 
 .div-left {
   display: inline-flex;
   width: 49%;
 }
+
 .div-right {
   display: inline-grid;
   width: 49%;
+  border-left: 4px solid #0900c5;
+  height: 100vh;
 }
 
 .personal-photo {
   width: 85%;
   margin: 20px 20px;
   border-radius: 4px;
-}
-
-.d-flex {
-  display: flex;
 }
 
 .w-percent {
@@ -67,7 +116,7 @@ body {
 }
 
 .border-line {
-  border-bottom: 3px solid #0900c5;
+  border-bottom: 4px solid #0900c5;
 }
 
 .icon {
@@ -79,17 +128,13 @@ body {
 .data-div {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .subtext-style {
   font-family: cursive;
   font-size: 18px;
   margin: 0;
-}
-
-.columns {
-  columns: 2;
 }
 
 .mr-col {
@@ -99,13 +144,9 @@ body {
 .header-spacing {
   margin-top: 15px;
 }
+
 .header-spacing-left {
   margin-top: 15px;
-}
-
-.d-flex-v-align {
-  display: flex;
-  align-items: center;
 }
 
 .aboutme-title {
@@ -116,13 +157,8 @@ body {
 
 .aboutme-text {
   font-family: monospace;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
-}
-
-.left-division {
-  border-left: 3px solid #0900c5;
-  padding-left: 15px;
 }
 
 .p-text {
@@ -130,13 +166,13 @@ body {
 }
 
 .skill-icon {
-  width: 50px;
+  width: 46px;
   margin-right: 10px;
 }
 
 .bottom-division {
-  border-bottom: 3px solid #0900c5;
-  padding-bottom: 10px;
+  border-bottom: 4px solid #0900c5;
+  padding-bottom: 15px;
 }
 
 .star-icon {
@@ -159,9 +195,18 @@ body {
   margin-right: 15px;
 }
 
+.skills-subtitle {
+  font-family: monospace;
+  font-size: 22px;
+  color: rgb(100 100 100);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
 @media (max-width: 400px) {
   .name-font {
-    font-size: 24px;
+    font-size: 22px;
   }
   .profession-title {
     font-size: 16px;
@@ -269,7 +314,7 @@ body {
   .d-flex {
     display: block;
   }
-  .columns {
+  .columns-1 {
     columns: 1;
   }
   .hr-style {
