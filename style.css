@@ -11,13 +11,29 @@ body {
 .w-100 {
   width: 100%;
 }
+
 /* Margin Right */
 
 .mr-5 {
   margin-right: 5px;
 }
+
 .mr-10 {
   margin-right: 10px;
+}
+
+/* Margin Bottom */
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 /* Padding Left */
@@ -25,12 +41,15 @@ body {
 .pl-5 {
   padding-left: 5px;
 }
+
 .pl-10 {
   padding-left: 10px;
 }
+
 .pl-15 {
   padding-left: 15px;
 }
+
 .pl-25 {
   padding-left: 25px;
 }
@@ -48,6 +67,10 @@ body {
 .d-flex-v-align {
   display: flex;
   align-items: center;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* Columns */
@@ -198,7 +221,7 @@ body {
 .skills-subtitle {
   font-family: monospace;
   font-size: 22px;
-  color: rgb(100 100 100);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   letter-spacing: 1px;
   margin: 10px 0px;
