@@ -4,7 +4,8 @@
   --green3: #52796f;
   --green4: #354f52;
   --green5: #2f3e46;
-  --box-shadow-color: #091f18;
+  --green6: #71ba67;
+  --box-shadow-color: #2f3e46;
   --font-color1: #fff;
   --font-family-dafault: "Roboto", sans-serif;
 }
@@ -13,6 +14,7 @@ body {
   background-color: var(--green5);
   margin: 7vh 14vw;
   font-family: var(--font-family-dafault);
+  height: 100vh;
 }
 
 .bold {
@@ -38,9 +40,20 @@ body {
   justify-content: center;
 }
 
+.s-around {
+  display: flex;
+  justify-content: space-around;
+}
+
 .s-between {
   display: flex;
   justify-content: space-between;
+}
+
+/* Padding */
+
+.p-7 {
+  padding: 7px;
 }
 
 /* Padding Top */
@@ -84,7 +97,7 @@ body {
 }
 
 .w-63 {
-  width: 60%;
+  width: 63%;
 }
 
 .w-60 {
@@ -118,10 +131,11 @@ body {
 #header-content-box {
   background-color: var(--green3);
   width: 60%;
-  height: 29vh;
+  height: 31vh;
   position: absolute;
   top: 24vh;
-  /* box-shadow: 1px 2px 12px var(--box-shadow-color); */
+  border-radius: 4px;
+  /* box-shadow: 0px -1px 8px var(--box-shadow-color); */
 }
 
 #perfil-photo {
@@ -130,8 +144,7 @@ body {
 }
 
 #personal-info-box {
-  width: 100%;
-  padding: 25px 40px;
+  padding: 18px 30px;
 }
 
 #name-text {
@@ -150,6 +163,7 @@ body {
   margin-top: 0;
   padding-left: 10px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .personal-info-text {
@@ -160,4 +174,18 @@ body {
 .personal-info-text > p {
   margin-top: 0px;
   margin-bottom: 7px;
+}
+
+#social-icon-box {
+  width: 97%;
+  height: 15%;
+  background-color: var(--green6);  
+  border-radius: 23px;
+
+}
+
+.social-media-icons {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
