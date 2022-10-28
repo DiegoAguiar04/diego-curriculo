@@ -87,11 +87,19 @@ header {
 
 /* Padding Right */
 
+.pr-8 {
+  padding-right: 8px;
+}
+
 .pr-15 {
   padding-right: 15px;
 }
 
 /* Padding Left */
+
+.pl-8 {
+  padding-left: 8px;
+}
 
 .pl-10 {
   padding-left: 10px;
@@ -131,10 +139,64 @@ header {
   margin-bottom: 20px;
 }
 
+/* Margin Right */
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-7 {
+  margin-right: 7px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
 /* Margin Top */
 
 .mt-0 {
   margin-top: 0px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-45 {
+  margin-top: 45px;
 }
 
 /* Width */
@@ -183,6 +245,10 @@ header {
 
 .h-100 {
   height: 100%;
+}
+
+.h-85 {
+  height: 85%;
 }
 
 #header-main-box {
@@ -276,7 +342,6 @@ header {
   color: var(--green1);
   margin: 0;
   font-size: 22px;
-  margin-bottom: 10px;
 }
 
 .skill-title {
@@ -297,4 +362,58 @@ header {
 
 .icon-width {
   width: 20px;
+}
+
+.others-left-box {
+  width: 48%;
+  padding-left: 10px;
+  height: 95%;
+}
+
+.others-left-subtitle-card {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 193px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.others-right-subtitle-card {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 180px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.others-little-ball {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--green6);
+}
+
+.others-box-skill-text {
+  width: 155px;
+  padding: 3px 8px;
+  border-radius: 11px;
+  background: var(--green2);
+  box-shadow: -1px 3px 3px 0px var(--green4);
+  color: var(--green5);
+  font-size: 14px;
+  text-align: center;
+}
+
+#others-divisor {
+  width: 10px;
+  height: 98%;
+  border-right: 1px solid var(--font-color1);
+}
+
+.others-right-box {
+  width: 50%;
+  height: 95%;
+  padding-right: 10px;
 }
