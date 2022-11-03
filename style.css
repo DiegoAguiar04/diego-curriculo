@@ -6,6 +6,7 @@
   --green4: #354f52;
   --green5: #2f3e46;
   --green6: #71ba67;
+  --green7: #4f8275;
   --box-shadow-color: #2f3e46;
   --font-color1: #fff;
   --font-family-dafault: "Roboto", sans-serif;
@@ -399,9 +400,9 @@ header {
   width: 155px;
   padding: 3px 8px;
   border-radius: 11px;
-  background: var(--green2);
+  background: var(--green7);
   box-shadow: -1px 3px 3px 0px var(--green4);
-  color: var(--green5);
+  color: var(--green0);
   font-size: 14px;
   text-align: center;
 }
@@ -423,7 +424,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
-  background: var(--green3);
+  background: var(--green7);
   box-shadow: 0px 0px 3px 0px;
   padding: 0px 15px;
   padding-top: 2px;
@@ -432,7 +433,7 @@ header {
 .skill-text-bar-box {
   margin-bottom: 10px;
   border-radius: 5px;
-  background: var(--green3);
+  background: var(--green7);
   box-shadow: 0px 0px 3px 0px;
   padding-top: 4px;
   padding-bottom: 4px;
