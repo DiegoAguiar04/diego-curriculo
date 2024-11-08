@@ -1,12 +1,5 @@
 :root {
-  --roxo1: #53397f;;
-  --green1: #cad2c5;
-  --green2: #84a98c;
-  --green3: #52796f;
-  --green4: #354f52;
-  --green5: #2f3e46;
-  --green6: #71ba67;
-  --green7: #4f8275;
+  --padrao: #53397f;;
   --box-shadow-color: #2f3e46;
   --font-color1: #fff;
   --font-family-dafault: "Roboto", sans-serif;
@@ -16,41 +9,12 @@ body {
   background-color: white;
   font-family: var(--font-family-dafault);
   margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-header {
-  height: 55%;
-}
-
-.cabecalho-com-cor {
-  height: 14vw;
-  background-color: var(--roxo1);
-  display: flex;
-  align-items: center;
-  padding: 0px 8%;
-}
-
-.foto-perfil {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nome-cabecalho {
-  font-size: 38px;
-  color: white;
-  font-weight: 600;
-  margin-bottom: 8px;
-  display: block;
-}
-
-.nome-profissao {
-  color: white;
-  font-size: 26px;
-  font-weight: 300;
-  display: block;
+.conteudo-esquerda {
+  width: 30%;
+  height: 100%;
+  background-color: #2f3e46;
 }
