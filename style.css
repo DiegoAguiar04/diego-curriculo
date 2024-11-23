@@ -1,20 +1,67 @@
 :root {
-  --padrao: #53397f;;
+  --padrao: #545454;
   --box-shadow-color: #2f3e46;
-  --font-color1: #fff;
-  --font-family-dafault: "Roboto", sans-serif;
+  --font-branco: #fff;
+  --font-family-dafault: "Cairo", sans-serif;;
+}
+
+* {
+  font-family: var(--font-family-dafault);
 }
 
 body {
   background-color: white;
-  font-family: var(--font-family-dafault);
   margin: 0;
-  width: 100vw;
-  height: 100vh;
 }
 
 .conteudo-esquerda {
-  width: 30%;
+  width: 25%;
   height: 100%;
-  background-color: #2f3e46;
+  color: var(--font-branco);
+  background-color: var(--padrao);
+  padding: 40px;
+}
+
+.foto-perfil {
+  width: 90%;
+}
+
+.habilidades {
+
+}
+
+.texto-habilidades {
+  display: block;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.texto-tecnicas {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.lista-com-bolinha {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-com-bolinha li {
+  position: relative;
+  padding-left: 24px;
+}
+
+.lista-com-bolinha li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px; 
+  height: 6px; 
+  background-color: var(--font-branco); 
+  border-radius: 50%; 
 }
