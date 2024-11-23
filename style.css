@@ -22,12 +22,14 @@ body {
   padding: 40px;
 }
 
-.foto-perfil {
-  width: 90%;
+.conteudo-direita {
+  width: 75%;
+  padding: 0px 32px;
+  color: var(--padrao);
 }
 
-.habilidades {
-
+.foto-perfil {
+  width: 90%;
 }
 
 .texto-habilidades {
@@ -65,3 +67,11 @@ body {
   background-color: var(--font-branco); 
   border-radius: 50%; 
 }
+
+.texto-nome-titulo {
+  font-size: 72px;
+  font-weight: 800;
+  color: var(--padrao);
+  font-family: "Oswald", sans-serif;
+}
+
