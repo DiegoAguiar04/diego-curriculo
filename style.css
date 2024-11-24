@@ -7,6 +7,9 @@
 
 * {
   font-family: var(--font-family-dafault);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -24,7 +27,7 @@ body {
 
 .conteudo-direita {
   width: 75%;
-  padding: 0px 32px;
+  padding: 32px;
   color: var(--padrao);
 }
 
@@ -75,3 +78,81 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+/* Responsividade */
+@media (max-width: 1200px) {
+  .conteudo-esquerda {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .conteudo-direita {
+    width: 70%;
+    padding: 16px;
+  }
+
+  .texto-nome-titulo {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .conteudo-esquerda,
+  .conteudo-direita {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .foto-perfil {
+    width: 60%;
+  }
+
+  .texto-habilidades,
+  .texto-tecnicas {
+    font-size: 20px;
+  }
+
+  .texto-nome-titulo {
+    font-size: 36px;
+  }
+
+  .lista-com-bolinha li::before {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .conteudo-esquerda {
+    text-align: center;
+  }
+
+  .conteudo-direita {
+    padding: 8px;
+  }
+
+  .foto-perfil {
+    width: 80%;
+  }
+
+  .texto-habilidades,
+  .texto-tecnicas {
+    font-size: 18px;
+  }
+
+  .texto-nome-titulo {
+    font-size: 28px;
+  }
+
+  .lista-com-bolinha li {
+    padding-left: 16px;
+  }
+
+  .lista-com-bolinha li::before {
+    width: 4px;
+    height: 4px;
+  }
+}
