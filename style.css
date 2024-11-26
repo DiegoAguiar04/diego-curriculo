@@ -92,6 +92,12 @@ body {
   font-size: 1.875rem;
 }
 
+.sobre-mim-titulo {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
 /* Responsividade */
 @media (max-width: 1200px) {
   .conteudo-esquerda {
@@ -107,6 +113,12 @@ body {
   .texto-nome-titulo {
     font-size: 48px;
   }
+
+  .sobre-mim-titulo {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 768px) {
@@ -121,20 +133,42 @@ body {
   }
 
   .foto-perfil {
-    width: 60%;
+    width: 70%;
   }
 
   .texto-habilidades,
   .texto-tecnicas {
-    font-size: 20px;
+    font-size: 32px;
   }
 
   .texto-nome-titulo {
-    font-size: 36px;
+    font-size: 42px;
   }
 
   .lista-com-bolinha li::before {
     content: none;
+  }
+
+  .lista-com-bolinha li {
+    font-size: 24px;
+  }
+
+  .bloco-imagem {
+    align-items: center;
+  }
+
+  .itens-contato {
+    padding-left: 14px;
+  }
+
+  .itens-contato span {
+    font-size: 24px;
+  }
+
+  .sobre-mim-titulo {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
   }
 }
 
