@@ -19,7 +19,6 @@ body {
 
 .conteudo-esquerda {
   width: 25%;
-  height: 100%;
   color: var(--font-branco);
   background-color: var(--padrao);
   padding: 40px;
@@ -78,6 +77,21 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+.bloco-habilidades {
+  margin-top: 8px;
+}
+
+.itens-contato {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.texto-cargo {
+  font-size: 1.875rem;
+}
+
 /* Responsividade */
 @media (max-width: 1200px) {
   .conteudo-esquerda {
@@ -120,18 +134,17 @@ body {
   }
 
   .lista-com-bolinha li::before {
-    width: 5px;
-    height: 5px;
+    content: none;
   }
 }
 
 @media (max-width: 480px) {
   .conteudo-esquerda {
-    text-align: center;
+    text-align: start;
   }
 
   .conteudo-direita {
-    padding: 8px;
+    padding: 14px;
   }
 
   .foto-perfil {
@@ -140,11 +153,11 @@ body {
 
   .texto-habilidades,
   .texto-tecnicas {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .texto-nome-titulo {
-    font-size: 28px;
+    font-size: 32px;
   }
 
   .lista-com-bolinha li {
@@ -154,5 +167,17 @@ body {
   .lista-com-bolinha li::before {
     width: 4px;
     height: 4px;
+  }
+  
+  .bloco-imagem {
+    align-items: center;
+  }
+
+  .itens-contato {
+    flex-direction: row;
+  }
+
+  .texto-cargo {
+    font-size: 22px;
   }
 }
